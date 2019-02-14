@@ -2,7 +2,7 @@
 This project and README file created on 14 Feb 19.
 
 ### Project Title
-Bikeshare Python Project
+Python Bikeshare Project
 
 ### Description
 A python file is used to read Bikeshare data in .csv format for several US cities.  The user can interact with the program to view facts about the data.
