@@ -12,5 +12,5 @@ Bikeshare.py
 The .csv files have not been uploaded because they are too large.
 
 ### Credits
-This repo forked from a [Udacity course repo](https://github.com/udacity/pdsnd_github)
+This repo forked from a [Udacity source](https://github.com/udacity/pdsnd_github)
 
