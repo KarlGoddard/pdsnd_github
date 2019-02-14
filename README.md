@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+This project and README file created on 14 Feb 19.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Python Project
 
 ### Description
-Describe what your project is about and what it does
+A python file is used to read Bikeshare data in .csv format for several US cities.  The user can interact with the program to view facts about the data.
 
 ### Files used
-Include the files used
+Bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This repo forked from a [Udacity course repo](https://github.com/udacity/pdsnd_github)
 
