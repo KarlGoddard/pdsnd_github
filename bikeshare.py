@@ -260,7 +260,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+    # retries the data set for the chosen city and iterates through 4 different functions that each focus on a separate aspect of the data.
 def main():
     while True:
         city, month, day = get_filters()
