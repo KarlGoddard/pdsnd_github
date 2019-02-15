@@ -80,7 +80,7 @@ def time_stats(df):
     start_time = time.time()
 
     # display the most common month
-    months_dict = {1:'January', 2:'February', 3: 'March', 4:'April', 5:'May', 6: 'June', 7:'July', 8:'August', 9: 'September', 10:'October', 11:'November', 12: 'December'}
+    months_dict = {1:'January', 2:'February', 3: 'March', 4:'April', 5:'May', 6: 'June'}
     df['month'] = df['Start Time'].dt.month
     common_month = df['month'].mode()[0]
     print('The most common month for travel is',months_dict[common_month],'\n')
@@ -220,7 +220,6 @@ def user_stats(df):
         print('Here is a count of each Gender:')
         print()
         print(df.groupby(df['Gender'])['Gender'].count())
-        #print('The total distance travelled on all bikes is',duration,'hours')
         print()
     else:
         print('No gender information available in the bikeshare data for this city')
@@ -260,7 +259,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+    # retries the data set for the chosen city and iterates through 4 different functions that each focus on a separate aspect of the data.
 def main():
     while True:
         city, month, day = get_filters()
