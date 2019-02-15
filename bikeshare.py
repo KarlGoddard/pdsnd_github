@@ -220,7 +220,6 @@ def user_stats(df):
         print('Here is a count of each Gender:')
         print()
         print(df.groupby(df['Gender'])['Gender'].count())
-        #print('The total distance travelled on all bikes is',duration,'hours')
         print()
     else:
         print('No gender information available in the bikeshare data for this city')
